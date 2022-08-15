@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <input type="number" id="input">
+  <button type="button" onclick="tinhtoan()" >Kết quả</button>
+  <h3 id="output"></h3>
+</body>
+<script>
+  function tinhtoan() {
+    let a = document.getElementById("input").value
+    b = (a-32)/1.8
+    document.getElementById("output").innerHTML = b
+  }
+</script>
+</html>
